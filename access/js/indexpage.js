@@ -1,8 +1,10 @@
+
 const menuBar = document.querySelector(".nav_mobile");
 const menuOverLay = document.querySelector(".overlay_for_mobile_device");
 const menuOpenButton = document.querySelector(".hamberger_bar");
 const body = document.querySelector("body");
 const paralax = document.querySelector(".background_parallax");
+
 
 window.addEventListener("scroll", () => {
   let scrollY = window.scrollY;
@@ -22,4 +24,3 @@ function closeMenu(){
     menuBar.setAttribute("inert","");
     menuOverLay.classList.remove("show_overlay");
 }
-

@@ -1,4 +1,3 @@
-
 body{  
     height: 100vh;
     background-image: url("../img/bg81.png");
@@ -34,7 +33,7 @@ body{
     height: 5rem;
     padding-inline: 5%;
     border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(0, 0, 0, 0.3);
     z-index: 1;
 }   
 
@@ -192,7 +191,7 @@ body{
     flex-direction: column;
     align-items: flex-start;
     border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .language_box img{
@@ -247,7 +246,7 @@ body{
 
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 .project_item{
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(0, 0, 0, 0.2);
     /* height: 40rem; */
     padding: 2rem;
     border: none;
@@ -380,7 +379,7 @@ body{
 
 .nav_mobile {
     display: none;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.6);
     padding-top: 1rem;
 }
 
@@ -493,7 +492,7 @@ body{
         position: fixed;
         inset:0;
         z-index: 9;
-        background: rgba(255, 255, 255, 0.2);
+        background: rgba(0, 0, 0, 0.2);
         backdrop-filter: blur(10px);
     }
 
@@ -561,10 +560,16 @@ body{
     body{
         background-size: contain;
         background-position: top center;
+        background-image: url("../img/bg82.png");
     }
     .background_parallax{
-        background-size: contain;
-        background-position: top center;
+        display: none;
+    }
+    .nav_pc,
+    .language_box,
+    .project_item,
+    .fooder{
+        background-color: rgba(0, 0, 0, 0.5);
     }
     
     .prj_description{
