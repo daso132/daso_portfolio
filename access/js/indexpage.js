@@ -17,6 +17,7 @@ function openMenu(){
 }
 
 function closeMenu(){
+    console.log("close");
     menuBar.classList.remove("show_menu");
     menuBar.setAttribute("inert","");
     menuOverLay.classList.remove("show_overlay");
