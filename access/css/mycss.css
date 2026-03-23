@@ -9,7 +9,6 @@ body{
     margin: 0px;
     padding: 0px;
 }
-
 .background_parallax{
     position: fixed;
     width: 100%;
@@ -559,6 +558,15 @@ body{
     }
 }
 @media screen and (max-width:600px){
+    body{
+        background-size: contain;
+        background-position: top center;
+    }
+    .background_parallax{
+        background-size: contain;
+        background-position: top center;
+    }
+    
     .prj_description{
         font-size: 1rem;
     }
